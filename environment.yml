@@ -1,0 +1,13 @@
+name: xai_seminar
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - notebook
+      - scikit-learn
+      - pandas
+      - matplotlib
