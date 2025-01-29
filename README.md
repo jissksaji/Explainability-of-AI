@@ -19,8 +19,8 @@ This repository explores **Explainability in AI**, focusing on **Decision Trees 
 
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/jissksaji/Explainability-in-AI.git
-cd Explainability-in-AI
+git clone https://github.com/jissksaji/Explainability-of-AI.git
+cd Explainability-of-AI
 ```
 
 ### **2️⃣ Create and Activate Conda Environment**
