@@ -1,13 +1,16 @@
-name: xai_seminar
-
+name: explainability
 channels:
-  - conda-forge
-
+  - conda-forge   
+  - defaults
 dependencies:
-  - python=3.10
+  - python=3.9
+  - scikit-learn
+  - matplotlib
+  - numpy
+  - graphviz
   - pip
-  - pip:
-      - notebook
-      - scikit-learn
-      - pandas
-      - matplotlib
+  - jupyter       # or ipython, if you prefer interactive shells
+  - dtreeviz      # provided by conda-forge
+  # If dtreeviz wasn't found on conda-forge for some reason, you can fallback:
+  # - pip:
+  #   - dtreeviz
